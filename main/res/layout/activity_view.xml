@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_nameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_name" />
+
+        <EditText
+            android:id="@+id/edit_nameID"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_span="4"
+            android:text="@string/add_name" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_phoneID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_nameID"
+            android:layout_alignStart="@+id/label_nameID"
+            android:layout_below="@+id/label_nameID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_phone" />
+
+        <EditText
+            android:id="@+id/edit_phoneID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_span="4"
+            android:text="@string/add_phone" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_emailID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_phoneID"
+            android:layout_alignStart="@+id/label_phoneID"
+            android:layout_below="@+id/label_phoneID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_email" />
+        <EditText
+            android:id="@+id/edit_emailID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_email" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_addressID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_emailID"
+            android:layout_alignStart="@+id/label_emailID"
+            android:layout_below="@+id/label_emailID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_address" />
+        <EditText
+            android:id="@+id/edit_addressID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_address" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_cityID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_addressID"
+            android:layout_alignStart="@+id/label_addressID"
+            android:layout_below="@+id/label_addressID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_city" />
+        <EditText
+            android:id="@+id/edit_cityID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_city" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_provinceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_cityID"
+            android:layout_alignStart="@+id/label_cityID"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_province" />
+        <EditText
+            android:id="@+id/edit_provinceID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_province" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/label_codeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_provinceID"
+            android:layout_alignStart="@+id/label_provinceID"
+            android:layout_below="@+id/label_provinceID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_code" />
+        <EditText
+            android:id="@+id/edit_codeID"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_code" />
+    </TableRow>
+    <TableRow>
+
+    </TableRow>
+</TableLayout>
+
